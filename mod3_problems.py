@@ -11,8 +11,8 @@ print(f"Hello, {name}! You are {age} years old. Next year, you will be {age2} ye
 #3. Prompt the user for a sentence and a word to try to find in that sentence. Have the program print out whether the word was found in the sentence. (i.e. True or False)
 sentence=input("Give me a Sentence!")
 wordy=input("Give me a word to find in this sentence! ")
-print(sentence != wordy)
-# Comment note. This is my best attempt im very lost on this one 
+finalresult= (wordy in sentence) 
+print(finalresult)
 #4. Prompt the user for: a word, a first index, and a last index. Slice the word at the indexes provided by the user and print to the screen.
 text=input("Write out word to slice ")
 input1=int(input("Starting at 0 give me a starting point "))
