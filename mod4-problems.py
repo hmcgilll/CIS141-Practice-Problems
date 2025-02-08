@@ -1,9 +1,9 @@
 #1. Construct a truth table for the expression: (A AND B) OR (NOT B) where A and B each can be True or False. Your truth table should be commented out (as it's not valid Python code!)
-# (A AND B) OR (NOT B)
+# A,B, (A AND B),(NOT B)
 # TRUE TRUE    FALSE
 # TRUE FALSE   TRUE
 # FALSE TRUE   FALSE
-# FALSE FALSE  TRUE 
+# FALSE FALSE  FALSE 
 # comment Im not super confident on this so feedback would be nice. this is the only concept this unit that just does not click with me. 
 #2. The headlights of a car should only automatically turn on when the daylight outside is below a certain threshold. If a sensor threshold is below the number 8, print "Headlights On"; otherwise, print "Headlights Off".
 headlight= 22
