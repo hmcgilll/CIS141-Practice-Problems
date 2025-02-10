@@ -24,5 +24,4 @@ num=int(input("Enter a number that is not 0 to have it printed :) "))
 while num > 0:
     print("Your number is ",num)
     num=int(input("Enter another number! 0 will end the program :) "))
-if num <= 0:
-    print("End of program")
+print("End of program")
