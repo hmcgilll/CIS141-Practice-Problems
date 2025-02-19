@@ -12,15 +12,16 @@ print(words.count("Olympic"))
 print(" ")
 #3. Given a list of strings, write code to create a new list that includes only the strings longer than three characters. Print the resulting filtered list.
 string=["test","egg","to","a","Hello"]
-filt_string=[word for word in string if len(word) >=3]
+filt_string=[word for word in string if len(word) >3]
 print(filt_string)
 print(" ")
-#4. For a list of integers, write code that counts how many numbers are positive and how many are negative, then print both counts.
+#4. For a list of integers, write code that counts how many numbers are positive and how many are negative, then print both counts. 
+# Print length of list instead of the numbers. 
 num=[1,-2,4,-6,3,5,-7]
 pos_num=[x for x in num if x > 0]
 neg_num=[x for x in num if x < 0]
-print(pos_num)
-print(neg_num)
+print(len(pos_num))
+print(len(neg_num))
 print(" ")
 #5. For a list of integers, use a loop to build a new list where each element is the square of the corresponding element in the original list. Print the new list.
 square=[2,4,6]
